@@ -87,16 +87,16 @@ The output JSON contains structured data for each verse line:
   "verse_line_id": "M1_01_001",
   "manuscripts": {
     "A": {
-      "present": true,                  // line is present in this witness
-      "fragmented": false,              // fragmented or not
-      "text": "verse line text",        // text as it appears in CSV
+      "present": true,
+      "fragmented": false,
+      "text": "verse line text",
       "scansion": {
-        "line": "preprocessed text",    // lowercased, stripped of punctuation
+        "line": "preprocessed text",
         "scanned": [
           {
-            "token": "word",            // word
+            "token": "word",
             "syllables": [
-              {"syllable": "sy", "stress": 1}, // stress-marked syllable (1=stressed, 0=unstressed)
+              {"syllable": "sy", "stress": 1},
               {"syllable": "lla", "stress": 0}
             ]
           }
