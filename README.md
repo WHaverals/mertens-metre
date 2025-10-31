@@ -20,7 +20,7 @@ Recent results (on test split):
 
 ## Corpus
 
-The corpus was prepared by dr. Sofie Moors and is available as an open dataset: [The Martijn Trilogy Manuscripts: An Open Dataset for Analyzing Scribal Variation](https://zenodo.org/records/12805804).
+The corpus was prepared by Sofie Moors, Mike Kestemont, and Remco Sleiderink and is available as an open dataset: [The Martijn Trilogy Manuscripts: An Open Dataset for Analyzing Scribal Variation](https://zenodo.org/records/12805804).
 
 This dataset contains diplomatic transcriptions of all witnesses of the Middle Dutch strophic poem Martijn Trilogy by Jacob van Maerlant, amounting to 15,811 verses across 17 text witnesses.
 
