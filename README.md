@@ -87,16 +87,16 @@ The output JSON contains structured data for each verse line:
   "verse_line_id": "M1_01_001",
   "manuscripts": {
     "A": {
-      "present": true,                  # line is present in this witness
-      "fragmented": false,              # fragmented or not
-      "text": "verse line text",        # text as it appears in CSV
+      "present": true,                  // line is present in this witness
+      "fragmented": false,              // fragmented or not
+      "text": "verse line text",        // text as it appears in CSV
       "scansion": {
-        "line": "preprocessed text",    # lowercased, stripped of punctuation
+        "line": "preprocessed text",    // lowercased, stripped of punctuation
         "scanned": [
           {
-            "token": "word",            # word
+            "token": "word",            // word
             "syllables": [
-              {"syllable": "sy", "stress": 1}, # stress-marked syllable (1=stressed, 0=unstressed)
+              {"syllable": "sy", "stress": 1}, // stress-marked syllable (1=stressed, 0=unstressed)
               {"syllable": "lla", "stress": 0}
             ]
           }
@@ -142,5 +142,5 @@ The scansion model uses:
 ## References
 
 - Haverals, W., Karsdorp, F. B., & Kestemont, M. (2019). *Rekenen op ritme: Een datagedreven oplossing voor het automatisch scanderen van de historische lyriek in de DBNL*. Vooys, 37(3), 6.
-- Haverals, W. *De Maat van het Middelnederlands* (PhD thesis)
+- Haverals, W. *De maat van het Middelnederlands. Een digitaal onderzoek naar de prosodische en ritmische kenmerken van middelnederlandse berijmde literatuur*. Universiteit Antwerpen, 2019 (PhD thesis)
 - Moors, S., Kestemont, M. & Sleiderink, R. (2024). *The Martijn Trilogy Manuscripts: An Open Dataset for Analyzing Scribal Variation*. Research Data Journal for the Humanities and Social Sciences. Available at: https://zenodo.org/records/12805804
